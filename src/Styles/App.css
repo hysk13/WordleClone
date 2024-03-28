@@ -1,0 +1,34 @@
+html {
+    user-select: none;
+}
+
+.web-wrap {
+    display: flex;
+    flex-direction: column;
+
+    /* https://www.w3schools.com/css/css_align.asp */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (max-height: 840px) {
+    .keyboard {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 680px) {
+    .logo {
+        display: none;
+    }
+}
