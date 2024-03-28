@@ -6,7 +6,7 @@ import EndGUI from './Stats.jsx'
 import Notification from './Notification.jsx';
 
 // https://github.com/Kinkelin/WordleCompetition/blob/main/data/official/combined_wordlist.txt <-- Thanks!
-import word_list from './Assets/Words.json';
+import word_list from '../Assets/Words.json';
 
 import './Styles/App.css';
 
