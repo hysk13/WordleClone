@@ -13,7 +13,7 @@ I can probably try and host this on GitHub pages... but I won't (because lazy).
 You can always try forking this repository and running it on your machine. "It WoRkEd On My MaChInE".
 If you have issues, please report.
 
-> npm install
+> npm install\
 > npm run dev
 
 ## Usage?
